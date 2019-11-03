@@ -17,6 +17,6 @@ useUnifiedTopology:true});
 app.use(cors());
 app.use(express.json());
 app.use(routes);
-var porta = process.env.PORT || 3333;
 
-app.listen(porta);
+
+app.listen(process.env.PORT || 3333);
